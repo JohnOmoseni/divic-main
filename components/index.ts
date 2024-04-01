@@ -1,0 +1,12 @@
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero/Hero";
+export { default as Customers } from "./Main/Customers/Customers";
+export { default as Services } from "./Main/Services/Services";
+export { default as WhyUs } from "./Main/WhyUs/WhyUs";
+export { default as Testimonials } from "./Main/Testimonials/Testimonials";
+export { default as OurProducts } from "./Main/OurProducts/OurProducts";
+export { default as Benefits } from "./Main/Benefits/Benefits";
+export { default as Fodista } from "./Main/Fodista/Fodista";
+// export { default as Form } from "./Main/Form/Form";
+export { default as Footer } from "./Footer";
+export { default as Button } from "./Button";

@@ -1,0 +1,5 @@
+@media (max-width:768px) {
+    .mobile-customer img{
+        width: 50px !important;
+    }
+}

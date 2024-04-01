@@ -1,0 +1,26 @@
+.benefits-card,.benefits-card-mobile{
+    border-top: 1px solid rgba(206, 206, 251, 0.12);
+    box-shadow: 0px -4px 12px 0px rgba(206, 206, 251, 0.1) inset;
+    background: linear-gradient(0deg, rgba(206, 206, 251, 0.08), rgba(206, 206, 251, 0.08));
+    border-radius: 22px;
+}
+
+.benefits-card-mobile{
+    width: 220px !important;
+    display: flex !important;
+    gap: 12px !important;
+    margin: 0 auto;
+    justify-content: center !important;
+    align-items: center !important;
+    max-height: 110px;
+
+
+}
+.benefits-desktop svg{
+    width: 40px;
+    height: 40px;
+}
+
+.benefits-desc{
+    word-break: keep-all;
+}

@@ -1,0 +1,44 @@
+.testimonial-card{
+border-radius: 22px;
+border: 1px solid rgba(206, 206, 251, 0.12);
+box-shadow: inset 0px -4px 12px 0px rgba(206, 206, 251, 0.1) ;
+background-color:  rgba(206, 206, 251, 0.12);
+
+}
+
+    .testimonial-card-mobile{
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(206, 206, 251, 0.12);
+        box-shadow: 0px -4px 12px 0px rgba(206, 206, 251, 0.1) inset;
+       display: flex !important;
+       border-radius: 22px;
+        }
+    
+    .testimonial-card-mobile div:last-child{
+        flex-basis: 70%;
+        }
+    @media (max-width:340px) {
+        .testimonial-card-mobile{
+            flex-direction: column;
+            }
+        
+    }
+/* YourCarousel.css */
+.custom-dot {
+    width: 10px; /* Customize the width of each dot */
+    height: 10px; /* Customize the height of each dot */
+    margin-top: 10px;
+    background-color: rgba(43, 50, 65, 1); /* Default background color */
+    border-radius: 50%; /* Make it a circle */
+    margin: 10px 4px; /* Adjust the separation between dots */
+    cursor: pointer; /* Add cursor pointer for interactivity */
+    transition: background-color 0.3s; /* Add a transition for smooth color change */
+  }
+  
+  /* Style for the active dot */
+  .slick-active .custom-dot {
+    background-color: rgba(145, 94, 255, 1); /* Active dot background color */
+  }
+  .slick-dots{
+    bottom:-32px !important
+  }
